@@ -1,14 +1,71 @@
-* {
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-html {
+html
+{
     font-size: 10px;
 }
 
-#employee-container {
+#employee-container
+{
     width: 100%;
+}
+
+header
+{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1
+{
+    font-size: 2.4rem;
+    color: #333;
+}
+
+.employee-card
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.employee-pic
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.employee-card .employee-info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-card .employee-info .employee-name
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.employee-card .employee-info .employee-role
+{
+    font-size: 1.4rem;
+    color: #666;
 }
